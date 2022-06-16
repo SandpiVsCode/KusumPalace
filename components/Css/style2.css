@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+body{
+    background-color: rgb(243, 227, 208);
+}
+#maintitle{
+    padding: 20px;
+    margin: 10px;
+    font-size: 2rem;
+    background-color: rgb(129, 82, 82);
+    display: flex;
+    color: white;
+    justify-content: center;
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+.container1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.card-image{
+    height: 250px;
+    
+    margin-bottom: 10px;
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+.c1{
+    background-image: url(../Members_Images/papaji.jpg );
+}
+.c2{
+    background-image: url(../Members_Images/santosh.jpeg);
+}
+.c3{
+    background-image: url(../Members_Images/Ravi.jpg);
+}
+.c4{
+    background-image: url(../Members_Images/kusum.jpg);
+}
+.c5{
+    background-image: url(../Members_Images/alka.jpeg);
+}
+.c6{
+    background-image: url(../Members_Images/ambika.jpg);
+}
+.c7{
+    background-image: url(../Members_Images/pooja.jpeg);
+}
+
+.card{
+    background-color: rgb(243, 243, 243);
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    margin: 15px;
+    border-radius: 15px;
+    
+    
+}
+.card h3{
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.card h2{
+    padding: 10px;
+}
+.card p{
+    padding: 10px;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.card a{
+    padding: 15px;
+    background-color: rgb(80, 32, 32);
+    border-radius: 15px;
+    display: block;
+    margin: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
